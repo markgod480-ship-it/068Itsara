@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/blog/%5Bslug%5D/page.tsx"],"sourcesContent":["type Props = {\r\n  params: {\r\n    slug: string\r\n  }\r\n}\r\n\r\nconst BlogDetail = async ({ params }: Props) => {\r\n  const { slug } = await params\r\n\r\n  return (\r\n    <div>\r\n      Blog Title: {slug}\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default BlogDetail"],"names":[],"mappings":";;;;;;AAMA,MAAM,aAAa,OAAO,EAAE,MAAM,EAAS;IACzC,MAAM,EAAE,IAAI,EAAE,GAAG,MAAM;IAEvB,qBACE,8OAAC;;YAAI;YACU;;;;;;;AAGnB;uCAEe"}}]
+}

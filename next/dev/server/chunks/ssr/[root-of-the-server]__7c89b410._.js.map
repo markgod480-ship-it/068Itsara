@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/about/page.tsx"],"sourcesContent":["import Image from \"next/image\"\r\n\r\nconst AboutPage = () => {\r\n  return (\r\n    <div>\r\n      <h1>About Me</h1>\r\n      <Image src=\"https://images.unsplash.com/photo-1770037367722-5444567fcb52\" alt=\"ProfilePic\" width={400} height={400} />\r\n    </div>\r\n  )\r\n}\r\nexport default AboutPage"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,YAAY;IAChB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,wIAAK;gBAAC,KAAI;gBAA+D,KAAI;gBAAa,OAAO;gBAAK,QAAQ;;;;;;;;;;;;AAGrH;uCACe"}}]
+}

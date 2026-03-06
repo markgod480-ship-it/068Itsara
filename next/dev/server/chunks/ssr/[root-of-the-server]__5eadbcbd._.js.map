@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/news/%5Bid%5D/page.tsx"],"sourcesContent":["import { notFound } from \"next/navigation\";\r\n\r\n\r\ntype Props = {\r\nparams: {\r\nid: string;\r\n};\r\n};\r\n\r\nconst NewsPageDetail = async ({ params }: Props) => {\r\nconst newsList = [\r\n{ id: 1, title: \"News One\" },\r\n{ id: 2, title: \"News Two\" },\r\n{ id: 3, title: \"News Three\" },\r\n];\r\nconst { id } = await params;\r\nconst news = newsList.find((item) => item.id === +id);\r\n\r\n\r\n// 👉 ถ้า id ไม่อยู่ในรายการ\r\nif (!news) {\r\nnotFound();\r\n}\r\n// ทำให้ช้า 3 วินาที\r\nawait new Promise((resolve) => setInterval(resolve, 1000));\r\n\r\nreturn <div>NewsPageDetail: {id}</div>;\r\n};\r\nexport default NewsPageDetail;"],"names":[],"mappings":";;;;;AAAA;AAAA;;;AASA,MAAM,iBAAiB,OAAO,EAAE,MAAM,EAAS;IAC/C,MAAM,WAAW;QACjB;YAAE,IAAI;YAAG,OAAO;QAAW;QAC3B;YAAE,IAAI;YAAG,OAAO;QAAW;QAC3B;YAAE,IAAI;YAAG,OAAO;QAAa;KAC5B;IACD,MAAM,EAAE,EAAE,EAAE,GAAG,MAAM;IACrB,MAAM,OAAO,SAAS,IAAI,CAAC,CAAC,OAAS,KAAK,EAAE,KAAK,CAAC;IAGlD,4BAA4B;IAC5B,IAAI,CAAC,MAAM;QACX,IAAA,iMAAQ;IACR;IACA,oBAAoB;IACpB,MAAM,IAAI,QAAQ,CAAC,UAAY,YAAY,SAAS;IAEpD,qBAAO,8OAAC;;YAAI;YAAiB;;;;;;;AAC7B;uCACe"}}]
+}

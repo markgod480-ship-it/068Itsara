@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/news/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\nconst NewsPage = () => {\r\nconst newsList = [\r\n    { id: 1, title: \"News One\" },\r\n    { id: 2, title: \"News Two\" },\r\n    { id: 3, title: \"News Three\" },\r\n];\r\nreturn (\r\n<div>\r\n    <h1>News Page</h1>\r\n        <ul>{newsList.map((news) => (<li key={news.id}><Link href={`/news/${news.id}`}>{news.title}</Link></li>))}</ul>\r\n</div>\r\n    );\r\n};\r\nexport default NewsPage;"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,WAAW;IACjB,MAAM,WAAW;QACb;YAAE,IAAI;YAAG,OAAO;QAAW;QAC3B;YAAE,IAAI;YAAG,OAAO;QAAW;QAC3B;YAAE,IAAI;YAAG,OAAO;QAAa;KAChC;IACD,qBACA,8OAAC;;0BACG,8OAAC;0BAAG;;;;;;0BACA,8OAAC;0BAAI,SAAS,GAAG,CAAC,CAAC,qBAAU,8OAAC;kCAAiB,cAAA,8OAAC,0LAAI;4BAAC,MAAM,CAAC,MAAM,EAAE,KAAK,EAAE,EAAE;sCAAG,KAAK,KAAK;;;;;;uBAApD,KAAK,EAAE;;;;;;;;;;;;;;;;AAGrD;uCACe"}}]
+}

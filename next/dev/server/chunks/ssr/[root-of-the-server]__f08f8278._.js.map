@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/register/page.tsx"],"sourcesContent":["const RegisterPage = () => {\r\n  return (\r\n    <div>RegisterPage</div>\r\n  )\r\n}\r\nexport default RegisterPage"],"names":[],"mappings":";;;;;;AAAA,MAAM,eAAe;IACnB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCACe"}}]
+}

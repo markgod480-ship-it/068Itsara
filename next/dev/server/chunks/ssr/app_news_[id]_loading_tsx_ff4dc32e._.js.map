@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/news/%5Bid%5D/loading.tsx"],"sourcesContent":["const Loading = () => {\r\n  return (\r\n    <main className=\"p-6\">\r\n      <p className=\"animate-pulse text-gray-500\">\r\n        Loading news detail...\r\n      </p>\r\n    </main>\r\n  )\r\n}\r\n\r\nexport default Loading"],"names":[],"mappings":";;;;;;AAAA,MAAM,UAAU;IACd,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAE,WAAU;sBAA8B;;;;;;;;;;;AAKjD;uCAEe"}}]
+}

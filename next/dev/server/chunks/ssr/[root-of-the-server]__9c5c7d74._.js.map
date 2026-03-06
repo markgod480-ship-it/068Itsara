@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/contact/page.tsx"],"sourcesContent":["const ContactPage = () => {\r\n  return (\r\n    <div>ContactPage</div>\r\n  )\r\n}\r\nexport default ContactPage"],"names":[],"mappings":";;;;;;AAAA,MAAM,cAAc;IAClB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCACe"}}]
+}

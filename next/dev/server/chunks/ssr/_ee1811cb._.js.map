@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/news/%5Bid%5D/error.tsx"],"sourcesContent":["'use client'\r\n\r\nconst Error = ({ error, reset }: any)=> {\r\nreturn (\r\n<main className=\"p-6\">\r\n<h2> News not found</h2>\r\n\r\n<button onClick={reset}>\r\nRetry\r\n</button>\r\n</main>\r\n)\r\n}\r\nexport default Error"],"names":[],"mappings":";;;;;AAAA;;AAEA,MAAM,QAAQ,CAAC,EAAE,KAAK,EAAE,KAAK,EAAO;IACpC,qBACA,8OAAC;QAAK,WAAU;;0BAChB,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;gBAAO,SAAS;0BAAO;;;;;;;;;;;;AAKxB;uCACe"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

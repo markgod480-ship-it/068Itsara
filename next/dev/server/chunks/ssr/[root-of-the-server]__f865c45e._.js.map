@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Sayonarx/Desktop/NextJProject/todoapps/app/login/page.tsx"],"sourcesContent":["const LoginPage = () => {\r\n  return (\r\n    <div>LoginPage</div>\r\n  )\r\n}\r\nexport default LoginPage"],"names":[],"mappings":";;;;;;AAAA,MAAM,YAAY;IAChB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCACe"}}]
+}
